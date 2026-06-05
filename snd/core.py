@@ -1,3 +1,5 @@
+# 2048游戏核心逻辑模块
+# 包含游戏初始化、方块移动、合并算法、分数累计等功能
 from loguru import logger
 from score_manager import ScoreManager
 logger.add("log.log",rotation="10 MB",level="TRACE")
