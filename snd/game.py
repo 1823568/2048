@@ -1,3 +1,4 @@
+# 2048游戏扩展版 - 已添加分数显示、最高分保存和关卡系统
 import pygame
 import snd.constant as CONST
 from snd.core import G2048,logger
