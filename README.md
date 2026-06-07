@@ -51,3 +51,5 @@ python main.py
 ## 许可证
 
 此项目基于 MIT 许可证，详情请参阅 [LICENSE](LICENSE) 文件。
+
+组员完善项目部署使用说明，补充运行注意事项
