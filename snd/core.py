@@ -159,3 +159,4 @@ if __name__ == '__main__':
 
 else:
     logger.info("G2048 : IMPORTED")
+# 异常处理：文件读写错误已通过 try-except 捕获，程序不会崩溃
