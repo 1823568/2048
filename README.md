@@ -9,7 +9,7 @@
 1. 克隆此仓库：
 
     ```sh
-    git clone https://github.com/Long17369/2048.git
+    git clone https://github.com/1823568/2048
     cd 2048
     ```
 
@@ -38,15 +38,24 @@ python main.py
 - 使用箭头键或者鼠标拖动移动方块。
 
 ## 文件结构
-
-- `main.py`：游戏的主入口。
-- `snd/`：包含游戏的核心逻辑和常量。
-  - `constant.py`：定义游戏中的常量。
-  - `core.py`：包含 2048 游戏的核心逻辑。
-  - `game.py`：包含游戏类，处理用户输入和游戏更新。
-- `install_venv.bat`：用于创建和激活虚拟环境并安装依赖项的脚本。
-- `run.bat`：用于运行游戏的脚本。
-- `requirements.txt`：列出项目所需的 Python 包。
+2048/
+├── main.py                 # 程序入口
+├── score_manager.py        # 分数管理模块（扩展）
+├── AI_LOG.md               # AI 辅助开发日志
+├── README.md               # 项目说明文档
+│
+├── snd/                    # 核心游戏模块
+│   ├── __init__.py         # 包标识
+│   ├── constant.py         # 常量配置（颜色、窗口大小）
+│   ├── core.py             # 游戏核心逻辑（移动、合并）
+│   ├── draw.py             # 图形绘制（方块、数字）
+│   └── game.py             # 游戏主类（事件处理）
+│
+├── requirements.txt        # 依赖列表
+├── install_venv.bat        # 虚拟环境安装脚本
+├── run.bat                 # 游戏启动脚本
+│
+└── highscore.json          # 最高分存储文件（运行时生成）
 
 ## 许可证
 
